@@ -22,3 +22,10 @@ const Title = styled.h1`
 export default function Home() {
   return <Title>My page</Title>
 }
+
+// Ciclo de vida do React - do componente
+// [ React chama de: Efeitos ||Efects ] => React.useEffect
+
+// É montado na tela = nasce      => didMount
+// Faz as ações      = atualizado => willUpdate
+// Sai da tela       = morre      => willUnmount
